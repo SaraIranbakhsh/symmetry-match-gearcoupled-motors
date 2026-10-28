@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.dylib
+
+# Cython
+build/
+.pyxbld/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Simulation outputs
+*.dat
+*.npy
+*.npz
+slurm-*.out
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
